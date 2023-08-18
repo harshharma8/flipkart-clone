@@ -1,0 +1,140 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+  
+    
+}
+footer{
+    height: 12vh;
+    background-color: #2874f0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 58px;
+    background: #2874f0;
+    font-family: 'Poppins', sans-serif;
+    /* border: 2px solid red; */
+}
+
+nav ul{
+    height: 58px;
+   
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    font-size: large;
+}
+
+nav{
+    display: flex;
+
+}
+.logo{
+  display: flex;
+    filter: brightness(500.5);
+    margin-left: -50px;
+    margin-right: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.search input{
+    width: 493px;
+    height: 23px;
+    border-radius: 2px;
+    margin: 0 16px 0 56px;
+    padding: 0px 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+    
+}
+
+.search button{
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider{
+    /* margin: auto; */
+    width: 80vw;
+    margin: 12px auto;
+    /* background-position: center; */
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+}
+
+.card h2{
+    font-family: 'Poppins', sans-serif;
+}
+
+.my2{
+    margin: 26px 0;
+    margin-left: 20px;
+    
+}
+
+.textcenter{
+    text-align: center;
+}
+.carditem{
+   display:inline-flex;
+   justify-content: center;
+   flex-direction: column;
+   margin: 0 15px;
+
+}
+.my1{
+    margin: 5PX 0;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.lines p{
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.o1{
+    margin-left: 10px;
+    padding: 0px;
+}
+.o12{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+
+main{
+    background-color: rgb(245, 245, 245);
+    
+}
